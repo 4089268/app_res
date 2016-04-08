@@ -63,10 +63,6 @@
                     android:textAlignment="center"
                     android:textColor="#c5aeaeae"/>
 
-                <ImageView
-                    style="@style/ImagenB"
-                    android:src="@drawable/giftaco"
-                    android:id="@+id/giftaco"/>
 
                 <ImageView
                     style="@style/ImageIco"/>
