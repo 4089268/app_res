@@ -1,0 +1,101 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Titulo">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">#eeeeee</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+
+    <style name="ImagenB">
+        <item name="android:layout_width"> match_parent</item>
+        <item name="android:layout_height">180dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal"> true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="ImageIco">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@mipmap/icono_principal</item>
+
+    </style>
+
+    <style name="FondoApp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:src">@mipmap/fondo_1</item>
+        <item name="android:scaleType">fitXY</item>
+
+    </style>
+
+    <style name="FondoApp2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:src">@mipmap/fondo2</item>
+        <item name="android:scaleType">fitXY</item>
+
+    </style>
+
+    <style name="Text_ImageB">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#eeeeee</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Descripcion_comida">
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">10sp</item>
+        <item name="android:layout_marginRight">10sp</item>
+        <item name="android:paddingTop"> 20sp </item>
+        <item name="android:layout_gravity"> top</item>
+        <item name="android:textColor">#eeeeee</item>
+        <item name="android:textSize">25sp</item>
+
+    </style>
+    <style name="txt_form">
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10sp</item>
+        <item name="android:layout_marginRight">10sp</item>
+        <item name="android:paddingTop"> 15sp </item>
+        <item name="android:layout_gravity"> top</item>
+        <item name="android:textColor">#eeeeee</item>
+        <item name="android:textSize">25sp</item>
+
+    </style>
+
+    <style name="ImagenComida">
+        <item name="android:layout_width"> match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal"> true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+</resources>

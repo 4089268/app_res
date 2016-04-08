@@ -1,0 +1,80 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.salvador.restaurant_v01.Principal">
+    <ImageView
+        style="@style/FondoApp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Restaurante"
+
+            android:id="@+id/titulo"
+            style="@style/Titulo" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:nestedScrollingEnabled="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/promo"
+                    android:id="@+id/promoButton" />
+
+                <ImageView
+                    style="@style/ImagenB"
+                    android:src="@mipmap/menu"
+                    android:id="@+id/menuButton" />
+
+                <ImageView
+                    style="@style/ImagenB"
+                    android:src="@mipmap/reserv"
+                    android:id="@+id/menuReservacion"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+
+                    android:text="RESTAURANTE \n Ubicado en: \n Calle CBTis 119 #361 Ampliacion Lopez Mateos \n Telefono 3144706 "
+                    android:textSize="12dp"
+                    android:textAlignment="center"
+                    android:textColor="#c5aeaeae"/>
+
+                <ImageView
+                    style="@style/ImagenB"
+                    android:src="@drawable/giftaco"
+                    android:id="@+id/giftaco"/>
+
+                <ImageView
+                    style="@style/ImageIco"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

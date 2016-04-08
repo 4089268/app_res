@@ -1,0 +1,63 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.salvador.restaurant_v01.descripcionPromocion">
+
+    <ImageView
+        style="@style/FondoApp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation = "vertical">
+
+        <TextView
+
+            android:text="Promociones"
+            style="@style/Titulo"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/ImagenB"
+                    android:src="@mipmap/promo1"/>
+
+                <TextView
+                    style="@style/Text_ImageB"
+                    android:text="Promocion A \n 2 Hamburguesas\n1 Orden de papa en gajo \npor  $65.00"/>
+
+                <ImageView
+                    style="@style/ImagenB"
+                    android:src="@mipmap/promo2"/>
+
+                <TextView
+                    style="@style/Text_ImageB"
+                    android:text="Promocion B \n 2  Dogos Supreme \npor $50.00"/>
+
+                <ImageView
+                    style="@style/ImagenB"
+                    android:src="@mipmap/promo3"/>
+
+                <TextView
+                    style="@style/Text_ImageB"
+                    android:text="Promocion C \n 25 Camarones Empanizados \npor $150.00"/>
+
+                <ImageView
+                    style="@style/ImageIco"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

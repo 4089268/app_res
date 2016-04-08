@@ -1,0 +1,139 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.salvador.restaurant_v01.Comida_A">
+
+    <ImageView
+        style="@style/FondoApp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Titulo"
+            android:text="Comida A"
+            android:id="@+id/titulo" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:id="@+id/linearlayout_submenu">
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:rowCount="1"
+                    android:columnCount="2"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="40sp">
+
+                    <ImageView
+                        android:layout_height="170sp"
+                        android:layout_width="170sp"
+                        android:src="@mipmap/img_2"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:scaleType="fitStart"
+                        android:id="@+id/comidaa" />
+
+                    <TextView
+                        style="@style/Descripcion_comida"
+                        android:text="Comida A_A"
+                        android:id="@+id/comida1" />
+
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:rowCount="1"
+                    android:columnCount="2"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="40sp">
+
+                    <TextView
+                        style="@style/Descripcion_comida"
+                        android:gravity="right"
+                        android:text="Comida A_B"
+                        android:id="@+id/comida2"/>
+
+                    <ImageView
+                        android:layout_width="170sp"
+                        android:layout_height="170sp"
+                        android:src="@mipmap/img_2"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:scaleType="fitStart"
+                        android:id="@+id/comidab"/>
+
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:rowCount="1"
+                    android:columnCount="2"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="40sp">
+
+                    <ImageView
+                        android:layout_height="170sp"
+                        android:layout_width="170sp"
+                        android:src="@mipmap/img_2"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:scaleType="fitStart"
+                        android:id="@+id/comidac"/>
+
+                    <TextView
+                        style="@style/Descripcion_comida"
+                        android:text="Comida A_C"
+                        android:id="@+id/comida3"/>
+
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:rowCount="1"
+                    android:columnCount="2"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="40sp">
+
+                    <TextView
+                        style="@style/Descripcion_comida"
+                        android:gravity="right"
+                        android:text="Comida A_D"
+                        android:id="@+id/comida4"/>
+
+                    <ImageView
+                        android:layout_width="170sp"
+                        android:layout_height="170sp"
+                        android:src="@mipmap/img_2"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:scaleType="fitStart"
+                        android:id="@+id/comidad"/>
+
+                </GridLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

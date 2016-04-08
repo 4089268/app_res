@@ -1,0 +1,83 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.salvador.restaurant_v01.descripComida">
+
+    <ImageView
+        style="@style/FondoApp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Titulo"
+            android:text="Comida a_a"
+            android:id="@+id/ttl"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    style = "@style/ImagenComida"
+                    android:src="@mipmap/img_1"
+                    android:paddingBottom="15sp"
+                    android:id="@+id/img"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Comida a_a"
+                        android:paddingLeft="15sp"
+                        android:paddingTop="15sp"
+                        android:textSize="20sp"
+                        android:textColor="#eeeeee"
+                        android:id="@+id/subtitulo"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Descripcion: \nxxx xx xx xx x xx x xxx xxx xx"
+                        android:paddingLeft="15sp"
+                        android:paddingTop="15sp"
+                        android:textSize="20sp"
+                        android:textColor="#eeeeee"
+                        android:id="@+id/desc"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Precio:    $xxxx "
+                        android:paddingLeft="15sp"
+                        android:paddingTop="15sp"
+                        android:textSize="20sp"
+                        android:textColor="#eeeeee"
+                        android:id="@+id/precio"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    style="@style/ImageIco"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</FrameLayout>

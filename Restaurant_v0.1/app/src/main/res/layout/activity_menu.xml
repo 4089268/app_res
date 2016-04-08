@@ -1,0 +1,75 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.salvador.restaurant_v01.menu">
+
+    <ImageView
+        style="@style/FondoApp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation = "vertical">
+
+        <TextView
+
+            android:text="Menu"
+            style="@style/Titulo"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    style="@style/ImagenB"
+                    android:src="@mipmap/carne"
+                    android:id="@+id/comida_AButtton" />
+
+                <TextView
+                    style="@style/Text_ImageB"
+                    android:text="CARNE"/>
+
+                <ImageView
+                    style="@style/ImagenB"
+                    android:src="@mipmap/mariscos"
+                    android:id="@+id/comida_BButtton" />
+
+                <TextView
+                    style="@style/Text_ImageB"
+                    android:text="MARISCOS"/>
+
+                <ImageView
+                    style="@style/ImagenB"
+                    android:src="@mipmap/bebidas"
+                    android:id="@+id/bebida_AButtton" />
+
+                <TextView
+                    style="@style/Text_ImageB"
+                    android:text="BEBIDAS"/>
+
+                <ImageView
+                    style="@style/ImagenB"
+                    android:src="@mipmap/helado"
+                    android:id="@+id/postreButtton" />
+
+                <TextView
+                    style="@style/Text_ImageB"
+                    android:text="POSTRES"/>
+
+                <ImageView
+                    style="@style/ImageIco"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

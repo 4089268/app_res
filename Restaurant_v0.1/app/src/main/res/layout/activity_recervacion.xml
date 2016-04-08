@@ -1,0 +1,97 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.salvador.restaurant_v01.recervacion">
+
+    <ImageView
+        style="@style/FondoApp2"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation = "vertical"
+            android:weightSum="1">
+
+            <TextView
+
+                android:text="Nueva Reservacion"
+                style="@style/Titulo"
+                android:paddingBottom="10sp"/>
+
+            <TextView
+                style="@style/txt_form"
+                android:text="Fecha:"
+                android:textColor="#222222"/>
+
+            <DatePicker
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/datePicker"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="10sp"/>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2">
+                <TextView
+                    style="@style/txt_form"
+                    android:text="Hora:"
+                    android:textColor="#222222"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/editTextHora"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    style="@style/txt_form"
+                    android:text="Minutos:"
+                    android:textColor="#222222"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/editTextMinuto"
+                    android:layout_gravity="center_horizontal" />
+
+            </GridLayout>
+
+            <TextView
+                style="@style/txt_form"
+                android:text="A nombre de :"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtxt_nombre"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtxt_apellido"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hacer Reservacion"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/buttonRes"
+                android:paddingBottom="10sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
