@@ -1,4 +1,4 @@
 # app_res
-Aplicacion movil desarrollada en android
+Aplicacion movil para consultar el menu y hacer recervaciones en un restaurante desarrollada paradispositivos moviles android
 
-Desarrollado por juan salvador
+Desarrollado por Juan Salvador
